@@ -1,0 +1,7 @@
+.content .row .images img:first-child {
+    width: 200px;
+}
+
+.content .row .images img:last-child {
+    width: 500px;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kasir - SungutLele</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/kasir.css">
+</head>
+<body>
+    
+    <div class="content">
+        <div class="row">
+            <div class="col-6 images d-flex flex-column">
+                <img src="assets/img/matahari.png" alt="matahari">
+                <img src="assets/img/kasir.png" alt="kasir">
+            </div>
+            <div class="col-6 d-flex justify-content-center align-items-center flex-column">
+                <h1 class="title text-uppercase fw-bold">Kasir Sungut Lele</h1>
+                <div class="items w-75 mt-2">
+                    <select class="form-select" id="selectedItems">
+                        <option value="pulpen">Pulpen Rp. 3000</option>
+                        <option value="pensil">Pensil Rp. 2000</option>
+                        <option value="buku">Buku Rp. 5000</option>
+                        <option value="penghapus">Penghapus Rp. 1500</option>
+                    </select>
+                    <div class="jumlahBeli opacity-0 mt-3 d-flex">
+                        <div class="col-auto">
+                            <label for="staticEmail2" class="visually-hidden">Total Beli</label>
+                            <input type="text" class="form-control" id="totalbelii" placeholder="Masukan Total Barang" required>
+                        </div>
+                        <div class="col-auto">
+                            <button type="button" class="btn btn-primary btn-belii mb-3 ms-3">Beli Items</button>
+                        </div>
+                        
+                    </div>
+                    <h5 class="results fw-bold mt-3 opacity-0">Harga Barang : </h5>
+                    <div class="bayarItems mt-3 d-flex opacity-0">
+                        <div class="col-auto">
+                            <input type="text" class="form-control" id="totalbayar" placeholder="Masukan Uang Anda" required>
+                        </div>
+                        <div class="col-auto">
+                            <button type="button" class="btn btn-primary btn-bayar mb-3 ms-3">Bayar</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+    <script src="assets/js/kasir.js"></script>
+</body>
+</html>
