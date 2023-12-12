@@ -4,16 +4,49 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Landing Page - SungutLele</title>
-    <link rel="stylesheet" href="assets/css/index.css">
+    <link rel="stylesheet" href="assets/css/bmi.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
 </head>
 <body>
-    <div class="landing-page">
-
-       
-
+    <div class="bmi">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-7 text d-flex justify-content-center align-items-center flex-column mt-5">
+                    <h1 class="title fw-bold fs-2">BMI CALCULATOR</h1>
+    
+                    <div class="card-groups mt-5 d-flex justify-content-center align-items-center">
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="title fw-bold text-center">Weight (kg)</h4>
+                                <h5 class="subtitleWeight fw-bold text-center">00</h5>
+                            </div>
+                            <div class="card-footer">
+                                <label for="rangeWeight" class="form-label">Range Weight</label>
+                                <input type="range" class="form-range" min="0" max="200" step="0.5" id="rangeWeight">
+                            </div>
+                        </div>
+                        <div class="card">
+                            <div class="card-body">
+                                <h4 class="title fw-bold text-center">Height (cm)</h4>
+                                <h5 class="subtitleHeight fw-bold text-center">00</h5>
+                            </div>
+                            <div class="card-footer">
+                                <label for="rangeHeight" class="form-label">Range Height</label>
+                                <input type="range" class="form-range" min="0" max="200" step="0.5" id="rangeHeight">
+                            </div>
+                        </div>
+                    </div>
+                    <button class="btn btn-primary btn-checkk mt-5 px-5 pt-3 pb-3">Check</button>
+                </div>
+                <div class="col-5 d-flex justify-content-center align-items-center flex-column">
+                    <img src="assets/img/humanNormal.png" class="imghuman">
+                    <h3 class="titleRes fw-bold">Normal</h3>
+                    <p class="subtitleRes">00</p>
+                </div>
+            </div>
+        </div>
     </div>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
-    <script src="assets/js/index.js"></script>
+    <script src="assets/js/bmi.js"></script>
 </body>
 </html>

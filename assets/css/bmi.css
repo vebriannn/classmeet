@@ -1,0 +1,16 @@
+.bmi{
+    height: 100vh;
+}
+
+
+.bmi .col-7 .card-groups {
+    gap: 40px;
+}
+
+.bmi .col-7 .card-groups .card {
+    padding: 30px 20px;
+}
+
+.bmi .col-5 img {
+    width: 200px;
+}
